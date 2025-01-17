@@ -1,0 +1,29 @@
+{
+    "Cazar": {
+        "checkpoints": [
+            {
+                "steps": 77679,
+                "file_path": "results\\E1\\Cazar\\Cazar-77679.onnx",
+                "reward": -1.2117645422763683,
+                "creation_time": 1737072562.8729746,
+                "auxillary_file_paths": [
+                    "results\\E1\\Cazar\\Cazar-77679.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 77679,
+            "file_path": "results\\E1\\Cazar.onnx",
+            "reward": -1.2117645422763683,
+            "creation_time": 1737072562.8729746,
+            "auxillary_file_paths": [
+                "results\\E1\\Cazar\\Cazar-77679.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
