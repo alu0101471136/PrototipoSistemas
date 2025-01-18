@@ -1,0 +1,37 @@
+behaviors:
+  PreyAgent:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 64
+      buffer_size: 20480
+      learning_rate: 0.0003
+      beta: 0.01
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+    network_settings:
+      num_layers: 2
+      hidden_units: 128
+      normalize: true
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+  HunterAgent:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 64
+      buffer_size: 20480
+      learning_rate: 0.0003
+      beta: 0.01
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+    network_settings:
+      num_layers: 2
+      hidden_units: 128
+      normalize: true
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0

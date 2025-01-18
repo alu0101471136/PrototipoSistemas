@@ -1,0 +1,65 @@
+{
+    "MoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 10700,
+                "file_path": "results\\TrainingPreyMultipleHunters\\MoveToGoal\\MoveToGoal-10700.onnx",
+                "reward": -12.088888698154026,
+                "creation_time": 1737130222.0762951,
+                "auxillary_file_paths": [
+                    "results\\TrainingPreyMultipleHunters\\MoveToGoal\\MoveToGoal-10700.pt"
+                ]
+            },
+            {
+                "steps": 499998,
+                "file_path": "results\\TrainingPreyMultipleHunters\\MoveToGoal\\MoveToGoal-499998.onnx",
+                "reward": -9.649812429975613,
+                "creation_time": 1737130890.614635,
+                "auxillary_file_paths": [
+                    "results\\TrainingPreyMultipleHunters\\MoveToGoal\\MoveToGoal-499998.pt"
+                ]
+            },
+            {
+                "steps": 500046,
+                "file_path": "results\\TrainingPreyMultipleHunters\\MoveToGoal\\MoveToGoal-500046.onnx",
+                "reward": -9.650373179521134,
+                "creation_time": 1737130890.6686177,
+                "auxillary_file_paths": [
+                    "results\\TrainingPreyMultipleHunters\\MoveToGoal\\MoveToGoal-500046.pt"
+                ]
+            },
+            {
+                "steps": 999995,
+                "file_path": "results\\TrainingPreyMultipleHunters\\MoveToGoal\\MoveToGoal-999995.onnx",
+                "reward": -9.49017858505249,
+                "creation_time": 1737131288.9093654,
+                "auxillary_file_paths": [
+                    "results\\TrainingPreyMultipleHunters\\MoveToGoal\\MoveToGoal-999995.pt"
+                ]
+            },
+            {
+                "steps": 1000054,
+                "file_path": "results\\TrainingPreyMultipleHunters\\MoveToGoal\\MoveToGoal-1000054.onnx",
+                "reward": -9.454032267293622,
+                "creation_time": 1737131288.9457672,
+                "auxillary_file_paths": [
+                    "results\\TrainingPreyMultipleHunters\\MoveToGoal\\MoveToGoal-1000054.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000054,
+            "file_path": "results\\TrainingPreyMultipleHunters\\MoveToGoal.onnx",
+            "reward": -9.454032267293622,
+            "creation_time": 1737131288.9457672,
+            "auxillary_file_paths": [
+                "results\\TrainingPreyMultipleHunters\\MoveToGoal\\MoveToGoal-1000054.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.5.1+cpu"
+    }
+}

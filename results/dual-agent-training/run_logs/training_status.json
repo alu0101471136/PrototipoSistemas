@@ -1,0 +1,123 @@
+{
+    "HunterAgent": {
+        "checkpoints": [
+            {
+                "steps": 1999996,
+                "file_path": "results\\dual-agent-training\\HunterAgent\\HunterAgent-1999996.onnx",
+                "reward": -2.8503521126760565,
+                "creation_time": 1737146318.8482034,
+                "auxillary_file_paths": [
+                    "results\\dual-agent-training\\HunterAgent\\HunterAgent-1999996.pt"
+                ]
+            },
+            {
+                "steps": 2334838,
+                "file_path": "results\\dual-agent-training\\HunterAgent\\HunterAgent-2334838.onnx",
+                "reward": -1.870829769033362,
+                "creation_time": 1737146960.446014,
+                "auxillary_file_paths": [
+                    "results\\dual-agent-training\\HunterAgent\\HunterAgent-2334838.pt"
+                ]
+            },
+            {
+                "steps": 2499997,
+                "file_path": "results\\dual-agent-training\\HunterAgent\\HunterAgent-2499997.onnx",
+                "reward": -3.7662337662337664,
+                "creation_time": 1737147637.8932967,
+                "auxillary_file_paths": [
+                    "results\\dual-agent-training\\HunterAgent\\HunterAgent-2499997.pt"
+                ]
+            },
+            {
+                "steps": 2999997,
+                "file_path": "results\\dual-agent-training\\HunterAgent\\HunterAgent-2999997.onnx",
+                "reward": -2.6941002969544896,
+                "creation_time": 1737148363.2989266,
+                "auxillary_file_paths": [
+                    "results\\dual-agent-training\\HunterAgent\\HunterAgent-2999997.pt"
+                ]
+            },
+            {
+                "steps": 3000003,
+                "file_path": "results\\dual-agent-training\\HunterAgent\\HunterAgent-3000003.onnx",
+                "reward": -2.6827687795804773,
+                "creation_time": 1737148363.3762252,
+                "auxillary_file_paths": [
+                    "results\\dual-agent-training\\HunterAgent\\HunterAgent-3000003.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3000003,
+            "file_path": "results\\dual-agent-training\\HunterAgent.onnx",
+            "reward": -2.6827687795804773,
+            "creation_time": 1737148363.3762252,
+            "auxillary_file_paths": [
+                "results\\dual-agent-training\\HunterAgent\\HunterAgent-3000003.pt"
+            ]
+        }
+    },
+    "PreyAgent": {
+        "checkpoints": [
+            {
+                "steps": 1999939,
+                "file_path": "results\\dual-agent-training\\PreyAgent\\PreyAgent-1999939.onnx",
+                "reward": null,
+                "creation_time": 1737146319.1114852,
+                "auxillary_file_paths": [
+                    "results\\dual-agent-training\\PreyAgent\\PreyAgent-1999939.pt"
+                ]
+            },
+            {
+                "steps": 2336419,
+                "file_path": "results\\dual-agent-training\\PreyAgent\\PreyAgent-2336419.onnx",
+                "reward": null,
+                "creation_time": 1737146960.3931549,
+                "auxillary_file_paths": [
+                    "results\\dual-agent-training\\PreyAgent\\PreyAgent-2336419.pt"
+                ]
+            },
+            {
+                "steps": 2499939,
+                "file_path": "results\\dual-agent-training\\PreyAgent\\PreyAgent-2499939.onnx",
+                "reward": -30.859850637840502,
+                "creation_time": 1737147638.871118,
+                "auxillary_file_paths": [
+                    "results\\dual-agent-training\\PreyAgent\\PreyAgent-2499939.pt"
+                ]
+            },
+            {
+                "steps": 2999939,
+                "file_path": "results\\dual-agent-training\\PreyAgent\\PreyAgent-2999939.onnx",
+                "reward": -40.833334760232404,
+                "creation_time": 1737148362.2162657,
+                "auxillary_file_paths": [
+                    "results\\dual-agent-training\\PreyAgent\\PreyAgent-2999939.pt"
+                ]
+            },
+            {
+                "steps": 3000643,
+                "file_path": "results\\dual-agent-training\\PreyAgent\\PreyAgent-3000643.onnx",
+                "reward": -40.833334760232404,
+                "creation_time": 1737148363.3348308,
+                "auxillary_file_paths": [
+                    "results\\dual-agent-training\\PreyAgent\\PreyAgent-3000643.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3000643,
+            "file_path": "results\\dual-agent-training\\PreyAgent.onnx",
+            "reward": -40.833334760232404,
+            "creation_time": 1737148363.3348308,
+            "auxillary_file_paths": [
+                "results\\dual-agent-training\\PreyAgent\\PreyAgent-3000643.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.5.1+cpu"
+    }
+}
